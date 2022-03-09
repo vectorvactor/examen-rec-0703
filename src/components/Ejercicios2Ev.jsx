@@ -1,4 +1,5 @@
 import React from 'react';
+import ListaChistes from './ListaChistes';
 
 class Ejercicio2 extends React.Component {
   constructor(props) {
@@ -58,6 +59,10 @@ class Ejercicio2 extends React.Component {
             jokeLanguages)<b> (1,5 puntos)</b>
           </li>
         </ul>
+
+        <ListaChistes />
+
+
       </div>
     );
   }
